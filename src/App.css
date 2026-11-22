@@ -1,0 +1,30 @@
+/* App.css – small tweaks on top of Bootstrap to match the handout screenshot. */
+
+/* Banner title is dark text on Bootstrap green, like the mockup. */
+.user-list-banner h1 {
+  color: #212529;
+  font-weight: 400;
+}
+
+/* Bootstrap's "info" is a bright cyan; the mockup uses a deeper teal. */
+.person-card.bg-info {
+  background-color: #17a2b8 !important;
+  color: #212529;
+}
+
+.person-card .card-header {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+/* Round portrait sized like the screenshot, without squashing the photo. */
+.person-photo {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  max-width: 100%;
+}
+
+/* Bootstrap 5's green is darker than the mockup's (Bootstrap 4) green. */
+.user-list-banner.bg-success {
+  background-color: #28a745 !important;
+}

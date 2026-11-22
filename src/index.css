@@ -1,0 +1,5 @@
+/* index.css – page-wide defaults. Bootstrap handles the rest. */
+body {
+  margin: 0;
+  background-color: #ffffff;
+}
